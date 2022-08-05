@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    while(1){
+        int arr[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
     int i,j,num,row,col,isFound = 0;
 
     printf("Enter the number that you want to search: ");
@@ -27,6 +28,8 @@ int main(){
     }
     else{
         printf("Your number (%d) is not found in this array",num);
+    }
+    printf("\n========================\n");
     }
     getch();
 }
